@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<table xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="xr xr3" 
+    xmlns:xr="http://schemas.microsoft.com/office/spreadsheetml/2014/revision" 
+    xmlns:xr3="http://schemas.microsoft.com/office/spreadsheetml/2016/revision3" id="1" xr:uid="{F659A5B7-33F9-4BEE-B725-483A9ED57A8C}" name="Tabelle1" displayName="Tabelle1" ref="A1:C18" totalsRowShown="0">
+    <autoFilter ref="A1:C18" xr:uid="{84959697-7E1C-41C1-B8DB-E2EC498D232F}"/>
+    <tableColumns count="3">
+        <tableColumn id="1" xr3:uid="{3222FE05-F08D-44E8-B8BD-ED09E7D74A0B}" name="A"/>
+        <tableColumn id="2" xr3:uid="{206B37F3-934E-4D44-9EC0-8E4BB6F3DEF4}" name="B"/>
+        <tableColumn id="3" xr3:uid="{5588536B-345F-4297-AC36-893EE503F43E}" name="C" dataDxfId="0">
+            <calculatedColumnFormula>Tabelle1[[#This Row],[B]]/2</calculatedColumnFormula>
+        </tableColumn>
+    </tableColumns>
+    <tableStyleInfo name="TableStyleMedium4" showFirstColumn="0" showLastColumn="0" showRowStripes="1" showColumnStripes="0"/>
+</table>
